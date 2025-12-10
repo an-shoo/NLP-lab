@@ -7,6 +7,7 @@ from collections import Counter
 
 nltk.download('punkt')
 nltk.download('stopwords')
+#%matplotlib inline comment out if in jupyter
 
 text = """
 Natural Language Processing is a part of Artificial Intelligence.
