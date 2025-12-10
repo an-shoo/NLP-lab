@@ -7,6 +7,7 @@ from nltk.corpus import stopwords
 import nltk
 
 nltk.download('stopwords')
+#%matplotlib inline comment out if in jupyter
 
 text = """
 Tech giants are active on Twitter. Follow: https://twitter.com/google,
