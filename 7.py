@@ -1,4 +1,5 @@
 # Lab 9: POS tagging and drawing parse tree
+#!pip install svgling run in separate cell
 import nltk
 from nltk import word_tokenize, pos_tag, RegexpParser
 
@@ -22,3 +23,5 @@ print(tree)
 
 # In a normal Python script:
 tree.draw()  # comment this out if you don't want the GUI window
+#import svgling for jupyter
+#svgling.draw_tree(tree)
